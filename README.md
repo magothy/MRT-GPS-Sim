@@ -50,7 +50,7 @@ python3 mrt_gps_sim.py 38.315 -77.035
 - Port: 10110
 - Receive Input on this port: checked
 
-![Add a UDP connection](images/03-udp.jpg "Add a UDP connection")
+![Add a UDP connection](images/03-add-udp.jpg "Add a UDP connection")
 
 4. Confirm and apply the new connection
 

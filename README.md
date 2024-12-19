@@ -5,8 +5,8 @@ outputting a 1 Hz RMC message via UDP.
 
 # Installation
 
-Copy [mrt_gps_sim.py](mrt_gps_sim.py) to your machine. This script requires python3 >= 3.10.
-Ubuntu 22.04 packages python3.10 by default.
+Copy [mrt_gps_sim.py](mrt_gps_sim.py) to your machine. This script requires python3 >= 3.8.
+Ubuntu 20.04 packages python3.8 by default.
 
 # Usage
 

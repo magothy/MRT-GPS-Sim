@@ -6,7 +6,7 @@ import math
 import socket
 import time
 from datetime import datetime, timezone
-from typing import final
+from typing import final, Tuple
 
 
 def nmea_checksum(sentence: str) -> str:
@@ -16,7 +16,7 @@ def nmea_checksum(sentence: str) -> str:
     return f"{checksum:02X}"
 
 
-def dms(value: float) -> tuple[int, int, float]:
+def dms(value: float) -> Tuple[int, int, float]:
     value_abs = abs(value)
     deg = math.floor(value_abs)
     min = (value_abs - deg) * 60
